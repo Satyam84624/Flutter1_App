@@ -33,7 +33,7 @@ class HomeDetailPage extends StatelessWidget {
                     StadiumBorder(),
                   ),
                 ),
-                child: "Buy".text.make()).wh(100, 50)
+                child: "Add to cart".text.make()).wh(120, 50)
           ],
         ).p32(),
       ),
@@ -63,6 +63,7 @@ class HomeDetailPage extends StatelessWidget {
                               .make(),
                           "${catalog?.desc}".text.xs.light.make(),
                           10.heightBox,
+                          "fwewwwww kjh qehew efehwelk sdnwe asjkhdjf aflkjfkl fhsuioe fkhwefh elkfhweoifbn lfjqwekln flhqwefn weqfljhqewwfkl fojqwkl eflhef qwflhq".text.make().p2(),
                         ],
                       ).py64(),
                     )))
