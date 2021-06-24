@@ -12,7 +12,9 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyThemes.creamColor,
       bottomNavigationBar: Container(
         color: Colors.white,
@@ -40,7 +42,7 @@ class HomeDetailPage extends StatelessWidget {
         child: Column(
           children: [
             Hero(
-              tag: 'image',
+              tag: Key(catalog?.id.toString() as String),
               child: Image.network(catalog?.image as String),
             ).h32(context),
             Expanded(
